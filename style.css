@@ -1,0 +1,53 @@
+header{
+    background-color: #333;
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+header label{
+    font-size: 3rem;
+    color: red;
+}
+
+header nav ul a{
+    margin:0 5rem ;
+    color:aliceblue;
+    font-size: 1.2rem;
+}
+
+header nav ul a:hover{
+    border-bottom: 1px solid aliceblue;
+}
+
+.Produtos__lista__item{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Produtos__conteudo{
+    flex: 0 2 calc(30% - 30px);
+    max-width: 20rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    background-color: orange;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
